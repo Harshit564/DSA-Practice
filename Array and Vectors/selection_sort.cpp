@@ -3,7 +3,6 @@ using namespace std;
 
 void selection_sort(int arr[], int n){
     for(int i = 0; i <= n-2; i++){
-        int curr = arr[i];
         int min_pos = i;
         for(int j = i; j < n; j++){
             if(arr[j] < arr[min_pos])

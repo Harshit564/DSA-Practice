@@ -22,7 +22,7 @@ string compressString(const string &str){
     return ans;
 }
 int main(){
-    string s = "abc";
+    string s = "abcddfffsaaaaa";
     cout << compressString(s);
     return 0;
 }
